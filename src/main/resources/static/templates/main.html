@@ -1,0 +1,17 @@
+<div ng-controller="FeedController">
+	<div class="feed-header">
+		<h2>Friends who have posted in My time-line</h2>
+	</div>
+	<div id="mainbox" class="card2">
+		<div ng-repeat="feed in nameList track by $index"   ng-if="feed != null">
+			<img
+				src="https://marketplace.canva.com/MAB7lHHOi10/1/thumbnail_large/canva-man-laptop-computer-technology-education-icon-vector-graphic-MAB7lHHOi10.png"
+				alt="" />
+			<div class="card3">
+			<p>{{feed}}</p>
+			</div>
+		</div>
+	</div>
+	
+
+</div>
