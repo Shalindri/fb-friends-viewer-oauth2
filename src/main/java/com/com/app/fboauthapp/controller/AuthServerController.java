@@ -1,4 +1,4 @@
-package com.example.ssd.fboauthapp.controller;
+package com.com.app.fboauthapp.controller;
 
 import java.io.IOException;
 import java.net.URLEncoder;
@@ -19,9 +19,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.ssd.fboauthapp.data.DataContainer;
-import com.example.ssd.fboauthapp.util.AppConstant;
-import com.example.ssd.fboauthapp.util.Log;
+import com.com.app.fboauthapp.data.DataContainer;
+import com.com.app.fboauthapp.util.AppConstant;
+import com.com.app.fboauthapp.util.Log;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

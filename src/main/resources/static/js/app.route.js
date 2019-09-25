@@ -9,18 +9,18 @@ app.config(function($stateProvider,$urlRouterProvider,$locationProvider){
 	$stateProvider
 	.state('login',{
 		url:"/login",
-		templateUrl:"templates/login.html",
+		templateUrl:"templates/oauthlogin.html",
 		controller:'LoginController'
 		
 	})
 	.state('auth',{
 		url:"/oauthlogin?code",
-		templateUrl:"templates/auth.html",
+		templateUrl:"templates/fbauth.html",
 		controller:'ContentController'
 	})
 	.state('main',{
 		url:"/main",
-		templateUrl:"templates/main.html"
+		templateUrl:"templates/dashboard.html"
 	})
 	
 	

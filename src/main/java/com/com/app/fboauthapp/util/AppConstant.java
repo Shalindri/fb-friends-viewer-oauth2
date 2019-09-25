@@ -1,4 +1,4 @@
-package com.example.ssd.fboauthapp.util;
+package com.com.app.fboauthapp.util;
 
 public class AppConstant {
 	//Graph endpoint

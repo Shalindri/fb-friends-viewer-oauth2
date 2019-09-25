@@ -1,4 +1,4 @@
-package com.example.ssd.fboauthapp.data;
+package com.com.app.fboauthapp.data;
 
 import java.util.HashMap;
 import java.util.Map;

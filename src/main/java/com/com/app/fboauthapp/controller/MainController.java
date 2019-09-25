@@ -1,4 +1,4 @@
-package com.example.ssd.fboauthapp.controller;
+package com.com.app.fboauthapp.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

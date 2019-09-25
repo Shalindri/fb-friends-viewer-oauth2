@@ -6,7 +6,7 @@ app.controller('FeedController',['$scope','fbService',function($scope,fbService)
 	$scope.feeds=[];
 	$scope.nameList=[];
 	
-	console.log("fired")
+	console.log(" app controller fired")
 	var loadFeeds = function(){
 		fbService.getFeeds().then(function(responce){
 			$scope.feeds=responce.data[0];
@@ -33,7 +33,7 @@ app.controller('FeedController',['$scope','fbService',function($scope,fbService)
 			console.log($scope.nameList);
 			
 		},function(error){
-			console.log("error while retreiving");
+			console.log("error_while_retreiving");
 		})
 	}
 	
