@@ -1,4 +1,4 @@
-package com.example.ssd.facebookoauthsample.data;
+package com.example.ssd.fboauthapp.data;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,23 +7,23 @@ import org.json.JSONObject;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
-public class ResourceContainer {
+public class DataContainer {
 
 	private static volatile Map<String, JsonNode> resourceMap;
-	private static ResourceContainer resourceDataHolder;
+	private static DataContainer resourceDataHolder;
 
-	private ResourceContainer() {
+	private DataContainer() {
 
 		resourceMap = new HashMap<String, JsonNode>();
 	}
 
-	public static ResourceContainer getInstance() {
+	public static DataContainer getInstance() {
 
 		if (resourceDataHolder == null) {
 
-			synchronized (ResourceContainer.class) {
+			synchronized (DataContainer.class) {
 				if (resourceDataHolder == null) {
-					resourceDataHolder = new ResourceContainer();
+					resourceDataHolder = new DataContainer();
 				}
 			}
 		}

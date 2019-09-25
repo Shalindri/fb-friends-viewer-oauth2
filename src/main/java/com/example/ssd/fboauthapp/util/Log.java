@@ -1,13 +1,13 @@
-package com.example.ssd.facebookoauthsample.util;
+package com.example.ssd.fboauthapp.util;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class FileIO {
+public class Log {
 
-	private final String FILENAME = "applogs.txt";
+	private final String FILENAME = "logs.txt";
 
 	public void writeToFile(String data) {
 
@@ -20,9 +20,9 @@ public class FileIO {
 			// if file doesnt exists, then create it
 			if (!file.exists()) {
 				file.createNewFile();
-				System.out.println("File not found. Created new log file");
+				System.out.println("File not_found. Created_new_log_file");
 			} else {
-				System.out.println("File is already existing");
+				System.out.println("File_is_already_existing");
 			}
 
 			// true = append file
@@ -35,19 +35,19 @@ public class FileIO {
 
 		} catch (Exception e) {
 
-			System.out.println("Error: " + e.getMessage());
+			System.out.println("Error_occured : " + e.getMessage());
 
 		} finally {
 
 			try {
 				bw.close();
 			} catch (IOException e) {
-				// Do nothing
+				
 			}
 			try {
 				fw.close();
 			} catch (IOException e) {
-				// Do nothing
+				
 			}
 		}
 
