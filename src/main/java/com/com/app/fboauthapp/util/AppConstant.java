@@ -14,9 +14,9 @@ public class AppConstant {
 	//Redirect URL specified in the fb_deveoper account
 	public static final String REDIRECT_URI = "http://localhost:9000/oauthlogin";
 	//App Secret in the fb_deveoper account
-	public static final String CLIENT_SECRET = "4f26e13fe4f8cd4ee84a16c9224a4e0d";
+	public static final String CLIENT_SECRET = "<Enter Client Secret>";
 	// APP id in the fb_deveoper account
-	public static final String CLIENT_ID = "1681012872028869";
+	public static final String CLIENT_ID = "<Enter Client ID>";
 	//friends who have tagged in the fb posts 
 	public static final String TAGGABLE_FRIEMDS = "/taggable_friends";
 	//URL to request 20 post form the users feed -graph facebook API
